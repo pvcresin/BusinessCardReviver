@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.example.leica.bcr.SettingActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myNameEdit"
+        android:layout_centerHorizontal="true"
+        android:text="name"
+        android:enabled="true"
+        android:editable="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySubEdit"
+        android:layout_below="@+id/myNameEdit"
+        android:layout_centerHorizontal="true"
+        android:text="sub"
+        android:enabled="true"
+        android:editable="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySexEdit"
+        android:layout_below="@+id/mySubEdit"
+        android:layout_centerHorizontal="true"
+        android:text="sex"
+        android:enabled="true"
+        android:editable="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myCompanyEdit"
+        android:layout_below="@+id/mySexEdit"
+        android:layout_centerHorizontal="true"
+        android:text="company"
+        android:enabled="true"
+        android:editable="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myDepartmentEdit"
+        android:layout_below="@+id/myCompanyEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="department"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myPostEdit"
+        android:layout_below="@+id/myDepartmentEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="post"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myTellEdit"
+        android:layout_below="@+id/myPostEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="tell"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myMobileEdit"
+        android:layout_below="@+id/myTellEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="mobile"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myFaxEdit"
+        android:layout_below="@+id/myMobileEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="fax"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myMailEdit"
+        android:layout_below="@+id/myFaxEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="mail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myUrlEdit"
+        android:layout_below="@+id/myMailEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="url"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myTagsEdit"
+        android:layout_below="@+id/myUrlEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="tags"/>
+
+
+</RelativeLayout>

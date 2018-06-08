@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.leica.bcr.SettingActivity">
+    <item android:id="@+id/setting_save"
+          android:title="save"
+          android:icon="@android:drawable/ic_menu_save"
+          android:showAsAction="ifRoom"/>
+</menu>

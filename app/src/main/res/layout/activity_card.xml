@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.leica.bcr.CardActivity"
+                android:padding="8dp"
+                android:id="@+id/cardRelative"
+                android:background="#444444">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/card"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton"
+        android:src="@android:drawable/ic_menu_rotate"
+        android:scaleType="fitCenter"
+        android:onClick="cardRotate"
+        android:layout_alignBottom="@+id/cardView"
+        android:layout_alignLeft="@+id/cardView"
+        android:layout_alignStart="@+id/cardView"/>
+
+</RelativeLayout>
